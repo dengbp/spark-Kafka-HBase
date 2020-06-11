@@ -23,7 +23,7 @@ final public class ConfigurationManager {
 	static {
 		try {
 			InputStream in = ConfigurationManager.class
-					.getClassLoader().getResourceAsStream("my.properties");
+					.getClassLoader().getResourceAsStream("big.properties");
 			prop.load(in);
 		} catch (Exception e) {
 			e.printStackTrace();
